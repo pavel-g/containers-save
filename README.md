@@ -20,7 +20,7 @@ $ npm install -g containers-save
 $ containers-save COMMAND
 running command...
 $ containers-save (--version)
-containers-save/0.0.0 linux-x64 node-v16.13.1
+containers-save/0.0.1 linux-x64 node-v16.13.1
 $ containers-save --help [COMMAND]
 USAGE
   $ containers-save COMMAND
@@ -29,8 +29,7 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`containers-save hello PERSON`](#containers-save-hello-person)
-* [`containers-save hello world`](#containers-save-hello-world)
+* [`containers-save changetags`](#containers-save-changetags)
 * [`containers-save help [COMMAND]`](#containers-save-help-command)
 * [`containers-save plugins`](#containers-save-plugins)
 * [`containers-save plugins:inspect PLUGIN...`](#containers-save-pluginsinspect-plugin)
@@ -39,45 +38,27 @@ USAGE
 * [`containers-save plugins:uninstall PLUGIN...`](#containers-save-pluginsuninstall-plugin)
 * [`containers-save plugins update`](#containers-save-plugins-update)
 
-## `containers-save hello PERSON`
+## `containers-save changetags`
 
-Say hello
+Change tags
 
 ```
 USAGE
-  $ containers-save hello [PERSON] -f <value>
-
-ARGUMENTS
-  PERSON  Person to say hello to
+  $ containers-save changetags -l <value> -f <value> -t <value>
 
 FLAGS
-  -f, --from=<value>  (required) Whom is saying hello
+  -f, --from=<value>  (required) from tag
+  -l, --list=<value>  (required) json file with containers list
+  -t, --to=<value>    (required) to tag
 
 DESCRIPTION
-  Say hello
+  Change tags
 
 EXAMPLES
-  $ oex hello friend --from oclif
-  hello friend from oclif! (./src/commands/hello/index.ts)
+  $ containers-save changetags
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/pavel-g/containers-save/blob/v0.0.0/dist/commands/hello/index.ts)_
-
-## `containers-save hello world`
-
-Say hello world
-
-```
-USAGE
-  $ containers-save hello world
-
-DESCRIPTION
-  Say hello world
-
-EXAMPLES
-  $ oex hello world
-  hello world! (./src/commands/hello/world.ts)
-```
+_See code: [dist/commands/changetags.ts](https://github.com/pavel-g/containers-save/blob/v0.0.1/dist/commands/changetags.ts)_
 
 ## `containers-save help [COMMAND]`
 
