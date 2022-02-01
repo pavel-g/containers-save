@@ -441,7 +441,7 @@
     supports-color "^8.1.1"
     tslib "^2"
 
-"@oclif/core@1.0.10", "@oclif/core@^1", "@oclif/core@^1.0.10", "@oclif/core@^1.0.8":
+"@oclif/core@1.0.10":
   version "1.0.10"
   resolved "https://registry.npmjs.org/@oclif/core/-/core-1.0.10.tgz"
   integrity sha512-L+IcNU3NoYxwz5hmHfcUlOJ3dpgHRsIj1kAmI9CKEJHq5gBVKlP44Ot179Jke1jKRKX2g9N42izbmlh0SNpkkw==
@@ -464,7 +464,7 @@
     widest-line "^3.1.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^1.2.0", "@oclif/core@^1.2.1":
+"@oclif/core@^1", "@oclif/core@^1.0.10", "@oclif/core@^1.0.8", "@oclif/core@^1.2.0", "@oclif/core@^1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-1.2.1.tgz#d6c9bb0d61feb2f36e3cee0b6c38e49256a23848"
   integrity sha512-f/U7yvfsEdHazhlGkB6XZldzQvoHJA7Ge0l9xpXsJG1Txj9EZhnuXJgOm4p+vyGXkODnH8x5rNkxwFMsJvPiUA==
@@ -3782,9 +3782,9 @@ object-treeify@^1.1.4:
   integrity sha512-EFVjAYfzWqWsBMRHPMAXLCDIJnpMhdWAqR7xG6M6a2cs6PMFpl/+Z20w9zDW4vkxOFfddegBKq9Rehd0bxWE7A==
 
 oclif@^2:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/oclif/-/oclif-2.4.0.tgz#dedb0ad2d8392cdaaef29fbab6a694dd00390d9e"
-  integrity sha512-nX00M5LQTpfWfTUWJ/biF0M0Shu0Jk7XzG6+kBx+1F+G2UJqtZLcnkni/KjcSE0v614KT7ndBLjdiEOH2gxNdw==
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/oclif/-/oclif-2.4.1.tgz#1efc4bac5b9575488fd13b349f735b5eff77a4b8"
+  integrity sha512-w4M6fkyWDX/nri0C/UMToh/3p+Gu7Lj9NbkeO+dda3oTf1JGsw4q8JUjS5zv+4gM7de4xaJlC1nHfMbbpTcSiw==
   dependencies:
     "@oclif/core" "^1.2.0"
     "@oclif/plugin-help" "^5.1.10"
